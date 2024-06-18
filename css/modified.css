@@ -7,7 +7,7 @@ p{
 .image-container{
     height: 100px;
     width: 100px;
-    border: 2px solid rgb(153, 160, 161);
+    border: 2px solid rgb(0, 183, 255);
     border-radius: 12px;
     align-items: center;
     padding: auto;
@@ -158,4 +158,9 @@ p{
 }
 .img3{
     filter:brightness(40%);
+}
+
+.Image{
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 10px;
 }

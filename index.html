@@ -43,12 +43,13 @@
 
 <body>
     <!-- Navbar Start -->
-    <nav class="nav-container shadow-lg navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 text-center">
+    <nav class="nav-container shadow-lg navbar navbar-expand-lg bg-white navbar-light sticky-top  ">
         <a href="index.html" class="navbar-brand d-flex align-items-center">
             <div class="logo-1-container">
-                <img class="logo-1-icon d-none d-md-none d-lg-block d-xl-block" alt="" src="img/logo.png" />
+                <img class="logo-1-icon d-none d-md-block d-lg-block d-xl-block" alt="" src="img/logo.png" />
             </div>
             <h1 class="m-0" style="color:rgb(23, 180, 233);">Dairy Harbor</h1>
+            
         </a>
         <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" style="color:rgb(23, 180, 233);" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -60,12 +61,20 @@
                 <a href="#Services" class="nav-item nav-link" style="color:rgb(23, 180, 233);">SERVICES</a>
                 <a href="#Team" class="nav-item nav-link" style="color:rgb(23, 180, 233);">TEAM</a>
                 <a href="#Contacts" class="nav-item nav-link" style="color:rgb(23, 180, 233);">CONTACTS</a>
-                </div>
-            </div>
-            <div class="border-start ps-4 d-none d-lg-block">
-                <button type="button" class="btn btn-sm p-0"><i class="fa fa-search"></i></button>
             </div>
         </div>
+        <form class="d-flex authButtons d-none d-xl-block" role="search">
+            <a href="">
+                <button type="button" class=" sighup">
+                    Sign Up
+                </button>
+            </a>
+            <a href="">
+                <button type="button" class="login">
+                    Log In
+                    </button>
+            </a>
+        </form>
     </nav>   
     <!-- Navbar End -->
 
@@ -124,6 +133,32 @@
     </div>
     <!-- Carousel End -->
 
+    <!--Get started-->
+    <div class="container-xxl py-5 text-center">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="section-title bg-white text-center px-3 " style="color:rgb(12, 173, 226)">Get Started</h1>
+        </div>
+        <div class="text-center ">
+            <p>
+                At Dairy Harbor, we aim to provide dairy farmers with the best tools to manage their farms efficiently and effectively. Our platform is designed to help you monitor and optimize every aspect of your dairy farm operations, from livestock tracking to milk production and feed schedules.Whether you are an experienced farmer or just starting, Dairy Harbor is here to support you. Join our community of forward-thinking dairy farmers and take your farm management to the next level.
+            </p>
+        </div>
+        <div class="text-center">
+            <form class="d-flex authButtons text-center" role="search">
+                <a href="">
+                    <button type="button" class=" sighup">
+                        Sign Up
+                    </button>
+                </a>
+                <a href="">
+                    <button type="button" class="login">
+                        Log In
+                        </button>
+                </a>
+            </form>
+        </div>
+    </div>
+    <!--Get Started End-->
 
     <!-- About Start -->
     <div class="container-xxl py-5" id="About">
@@ -135,26 +170,30 @@
                         </div>
                         
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                            <img class="img-fluid rounded" src="img/carousel-22.jpg">
+                            <img class="img-fluid Image" src="img/dashboard-d.jpg">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
-                            <img class="img-fluid rounded" src="img/s2.jpg">
+                            <img class="img-fluid Image" src="img/phone2display.jpg">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.5s">
-                            <img class="img-fluid rounded" src="img/s3.jpg">
+                            <img class="img-fluid Image" src="img/laptopdisplay.jpg">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                            <img class="img-fluid rounded" src="img/gallery-6.jpg">
+                            <img class="img-fluid Image" src="img/tabdisplay.jpg">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <h1 class="section-title bg-white text-start pe-3 mb-4" style="color:rgb(20, 185, 240);">About Us</h1>
-                    <p class="mb-4 ">Dairy Harbor is a comprehensive dairy farm management app designed to streamline dairy farm operations and maximize productivity. With innovative features that cover every aspect of dairy farming, Dairy Delight empowers you to efficiently manage your herd, optimize breeding, and monitor production and sales</p>
+                    <p class="mb-4 ">
+                        Dairy Harbor is a comprehensive dairy farm management app designed to streamline dairy farm operations and maximize productivity. With innovative features that cover every aspect of dairy farming, Dairy Delight empowers you to efficiently manage your herd, optimize breeding, and monitor production and sales.
+                        Our goal is to develop a dairy farm management app that offers a user-friendly interface and robust functionality, enabling farmers to efficiently oversee their operations, enhance productivity, and optimize profitability through streamlined livestock management, accurate production tracking, and sales monitoring.
+
+                    </p>
                     <div class="row g-5 pt-2 mb-5">
                         <div class="col-sm-6">
                             <div class="image1 mb-4">
-                                <img class="img-fluid mb-4 img" src="img/service1.png" alt="">
+                                <img class="img-fluid mb-4 img Image" src="img/service1.png" alt="">
                             </div>
                             
                             <h5 class="mb-3" style="color:rgb(20, 185, 240);">Comprehensive Data Capture
@@ -164,7 +203,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="image1 mb-4">
-                                <img class="img-fluid mb-4 img" src="img/product1.jpg" alt="">
+                                <img class="img-fluid mb-4 img Image" src="img/product1.jpg" alt="">
                             </div>
 
                                 <h5 class="mb-3" style="color:rgb(20, 185, 240);">
@@ -180,152 +219,6 @@
     <!-- About End -->
 
 
-    <!-- Features Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="section-title bg-white text-start pe-3 mb-4" style="color:rgb(20, 185, 240);">Why Us!<h1>
-                    <p class="mb-4" style="color:rgb(0,0,0);">Our goal is to develop a dairy farm management app that offers a user-friendly interface and robust functionality, enabling farmers to efficiently oversee their operations, enhance productivity, and optimize profitability through streamlined livestock management, accurate production tracking, and sales monitoring.
-
-                    </p>
-                    <p style="color:rgb(0,0,0);" ><i class="fa fa-check text-primary me-3"></i>Streamlined Dairy Farm Management
-                    </p>
-                    <p style="color:rgb(0,0,0);" ><i class="fa fa-check text-primary me-3"></i>Herd Health Optimization
-                    </p>
-                    <p style="color:rgb(0,0,0);" ><i class="fa fa-check text-primary me-3"></i>Data-Driven Decision Making
-                    </p>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row g-2">
-                        <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
-                           <!-- <div class="about-experience rounded" style="background-color:rgb(10, 158, 207); color:black;">
-                                <h1 class="display-1 mb-0">1</h1>
-                                <small class="fs-5 fw-bold">Year Experience</small>
-                            </div>-->
-                            
-                        </div>
-                        
-                        <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                            <img class="img-fluid rounded" src="img/gallery-5.jpg">
-                        </div>
-                        <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
-                            <img class="img-fluid rounded" src="img/img-1.jpg">
-                        </div>
-                        <div class="col-6 wow fadeIn" data-wow-delay="0.5s">
-                            <img class="img-fluid rounded" src="img/img-2.jpg">
-                        </div>
-                        <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                            <img class="img-fluid rounded" src="img/img-3.jpg">
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    <!-- Features End -->
-
-
-    <!-- Banner Start -->
-    <div class="container-fluid banner my-5 py-5" data-parallax="scroll" style="background-color:rgb(0, 0, 0);">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-sm-4">
-                            <img class="img-fluid rounded" src="img/cowprob.jpg" alt="">
-                        </div>
-                        <div class="col-sm-8">
-                            <h2 class="mb-3" style="color:white;">Problems
-                            </h2>
-                                <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i>
-                                    <span style="text-weight:bold; color:white;">Inconsistent Milk Production:</span> 
-                                     Variations in milk yield due to poor tracking of cow health and diet.
-                                </p>
-                                <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check  me-3"></i>
-                                    <span style="text-weight:bold; color:white;">Disease Outbreaks:</span> Difficulty in early detection and prevention of diseases.
-                                </p>
-                                <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i>
-                                    <span style="text-weight:bold; color:white;">Labor Management:</span> Inefficient labor allocation and management.
-                                </p>
-                                <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i>
-                                    <span style="text-weight:bold; color:white;">Record Keeping:</span>  Manual record-keeping is prone to errors and time-consuming.
-                                </p>
-                                <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i>
-                                    <span style="text-weight:bold; color:white;">Feed Management:</span> Inaccurate feed formulation and distribution.
-                                </p>
-                                <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i>
-                                    <span style="text-weight:bold; color:white;">Breeding Management:</span> Poor tracking of breeding cycles and genetic records.
-                                </p>
-                                <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i>
-                                    <span style="text-weight:bold; color:white;">Financial Management:</span>  Inefficient financial tracking and management.
-                                </p>
-                                <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i>
-                                    <span style="text-weight:bold; color:white;">Regulatory Compliance:</span> Difficulty in maintaining and accessing compliance records.
-                                </p>
-                                <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i>
-                                    <span style="text-weight:bold; color:white;">Resource Allocation: </span>Inefficient use of resources like water, feed, and medications.
-                                </p>
-                                <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i> <span style="text-weight:bold; color:white;">Market Connectivity:</span> Limited access to markets and customers.
-                                </p>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-sm-4">
-                            <img class="img-fluid rounded" src="img/happycow.jpg" alt="">
-                        </div>
-                        <div class="col-sm-8">
-                            <h2 class="mb-3" style="color:white;">Solutions
-                            </h2>
-                            <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i>
-                                <span style="text-weight:bold; color:white;">Consistent Milk Production:</span>
-                                
-
-The application can monitor and analyze cow health and diet, providing data-driven recommendations to optimize milk yield.
-
-                            </p>
-                            <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check  me-3"></i>
-                                <span style="text-weight:bold; color:white;">Disease Outbreaks:</span>
-
-                                Early detection through real-time health monitoring and alerts for abnormal conditions can prevent disease spread.
-                            </p>
-                            <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i>
-                                <span style="text-weight:bold; color:white;">Labor Management:</span>
-
-                                Automate task scheduling and track labor efficiency to ensure optimal use of human resources.
-                            </p>
-                            <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i><span style="text-weight:bold; color:white;">Record Keeping:</span>
-
-                                Digital record-keeping ensures accuracy and easy access to historical data for analysis and decision-making.
-                            </p>
-                            <p style="color:rgb(14, 181, 236);" ><i class="fa fa-check me-3"></i><span style="text-weight:bold; color:white;">Feed Management:</span>
-                                
-
-                                Optimize feed formulation and distribution using data on cow health, milk production, and nutritional requirements.
-                            </p>
-                            <p style="color:rgb(14, 181, 236);"><i class="fa fa-check me-3" ></i><span style="text-weight:bold; color:white;">Breeding Management:</span>
-
-                                Track breeding cycles, genetic information, and schedule optimal breeding times to improve herd genetics and productivity.
-                                
-                            </p>
-                            <p style="color:rgb(14, 181, 236);"><i class="fa fa-check me-3" ></i><span style="text-weight:bold; color:white;">Financial Management:</span>
-
-                                Integrate financial tracking to monitor expenses, revenue, and profitability, providing detailed financial reports.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Banner End -->
-
-
     <!-- Service Start -->
     <div class="container-xxl py-5" id="Services">
         <div class="container">
@@ -335,8 +228,10 @@ The application can monitor and analyze cow health and diet, providing data-driv
             </div>
 
             <div class="row gy-5 gx-4">
+
+                <!--Artificial Intelligence-->
                 <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex h-100 service1">
+                    <div class="service-item d-flex h-100 service1 Image">
                         <div class="service-img">
                             <img class="img-fluid" src="img/service-1.jpg" alt="" style="color:black;">
                         </div>
@@ -353,8 +248,9 @@ The application can monitor and analyze cow health and diet, providing data-driv
                     </div>
                 </div>
                 
+                <!--Milk distribution and sales-->
                 <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex h-100 service1">
+                    <div class="service-item d-flex h-100 service1 Image">
                         <div class="service-img">
                             <img class="img-fluid" src="img/service-2.jpg" alt="">
                         </div>
@@ -372,8 +268,9 @@ The application can monitor and analyze cow health and diet, providing data-driv
                     </div>
                 </div>
                 
+                <!--Periodic Procedures Management-->
                 <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex h-100 service1">
+                    <div class="service-item d-flex h-100 service1 Image">
                         <div class="service-img">
                             <img class="img-fluid" src="img/service-3.jpg" alt="">
                         </div>
@@ -391,8 +288,9 @@ The application can monitor and analyze cow health and diet, providing data-driv
                     </div>
                 </div>
 
+                <!--Cattle Registration Module-->
                 <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex h-100 service1">
+                    <div class="service-item d-flex h-100 service1 Image">
                         <div class="service-img">
                             <img class="img-fluid" src="img/service-4.jpg" alt="">
                         </div>
@@ -410,8 +308,9 @@ The application can monitor and analyze cow health and diet, providing data-driv
                     </div>
                 </div>
 
+                <!--Health Procedures Tracking-->
                 <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex h-100 service1">
+                    <div class="service-item d-flex h-100 service1 Image">
                         <div class="service-img">
                             <img class="img-fluid " src="img/service-5.jpg" alt="">
                         </div>
@@ -428,8 +327,9 @@ The application can monitor and analyze cow health and diet, providing data-driv
                     </div>
                 </div>
 
+                <!--Production Monitoring-->
                 <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex h-100 service1">
+                    <div class="service-item d-flex h-100 service1 Image">
                         <div class="service-img">
                             <img class="img-fluid" src="img/service-6.jpg" alt="">
                         </div>
@@ -445,6 +345,7 @@ The application can monitor and analyze cow health and diet, providing data-driv
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -463,7 +364,8 @@ The application can monitor and analyze cow health and diet, providing data-driv
 
                 <!--Brian-->
                 <div class="col-lg-4 col-md-6 wow fadeInUp team-banner" data-wow-delay="0.1s">
-                    <div class="team-item rounded p-4">
+
+                    <div class="team-item rounded p-4 Image">
                         <img src="img/Brian.jpeg" class="image-container rounded-circle" alt="...">
                         <h5 style="color:black;">Brian Irunguh</h5>
                         <p style="color:rgb(10, 147, 192);">Project Leader & Backend Developer</p>
@@ -477,7 +379,7 @@ The application can monitor and analyze cow health and diet, providing data-driv
 
                 <!--Eliud-->
                 <div class="col-lg-4 col-md-6 wow fadeInUp team-banner" data-wow-delay="0.3s">
-                    <div class="team-item rounded p-4">
+                    <div class="team-item rounded p-4 Image">
                         <img src="img/Eliud1.jpg" class="image-container rounded-circle" alt="...">
                         <h5 style="color:black;">Eliud Marierie</h5>
                         <p style="color:rgb(10, 147, 192);">Backend Developer & Database Administrator</p>
@@ -491,7 +393,7 @@ The application can monitor and analyze cow health and diet, providing data-driv
 
                 <!--Kelvin-->
                 <div class="col-lg-4 col-md-6 wow fadeInUp team-banner" data-wow-delay="0.5s">
-                    <div class="team-item rounded p-4">
+                    <div class="team-item rounded p-4 Image">
                         <img src="img/Kelvin.jpg" class="image-container rounded-circle" alt="...">
                         <h5 style="color:black;">Kelvin Mwenda</h5>
                         <p style="color:rgb(10, 147, 192);">Lead Frontend Developer & UX/UI Engineer</p>
@@ -505,7 +407,7 @@ The application can monitor and analyze cow health and diet, providing data-driv
 
                 <!--Sharon-->
                 <div class="col-lg-4 col-md-6 wow fadeInUp team-banner" data-wow-delay="0.5s">
-                    <div class="team-item rounded p-4">
+                    <div class="team-item rounded p-4 Image">
                         <img src="img/Sharon.jpg" class="image-container rounded-circle" alt="...">
                         <h5 style="color:black;">Sharon Nyaboke</h5>
                         <p style="color:rgb(10, 147, 192);">Frontend Developer</p>
@@ -519,7 +421,7 @@ The application can monitor and analyze cow health and diet, providing data-driv
 
                 <!--Kitavi-->
                 <div class="col-lg-4 col-md-6 wow fadeInUp team-banner" data-wow-delay="0.5s">
-                    <div class="team-item rounded p-4">
+                    <div class="team-item rounded p-4 Image">
                         <img src="img/Kitavi.jpg" class="image-container rounded-circle" alt="...">
                         <h5 style="color:black;">Kitavi Douglas Kimani</h5>
                         <p style="color:rgb(10, 147, 192);" >Quality Assurance(QA) Tester</p>
@@ -533,7 +435,7 @@ The application can monitor and analyze cow health and diet, providing data-driv
 
                 <!--Felister-->
                 <div class="col-lg-4 col-md-6 wow fadeInUp team-banner" data-wow-delay="0.5s">
-                    <div class="team-item rounded p-4">
+                    <div class="team-item rounded p-4 Image">
                         <img src="img/Felister.jpg" class="image-container rounded-circle" alt="...">
                         <h5 style="color:black;">Felister Njeri</h5>
                         <p style="color:rgb(10, 147, 192);" >Subject matter Expert</p>
@@ -547,7 +449,7 @@ The application can monitor and analyze cow health and diet, providing data-driv
 
                 <!--Duncan-->
                 <div class="col-lg-4 col-md-6 wow fadeInUp team-banner" data-wow-delay="0.5s">
-                    <div class="team-item rounded p-4">
+                    <div class="team-item rounded p-4 Image">
                         <img src="img/Dancun.jpg" class="image-container rounded-circle" alt="...">
                         <h5 style="color:black;">Dancun Gitau</h5>
                         <p style="color:rgb(10, 147, 192);" >Business Analyst</p>
@@ -561,7 +463,7 @@ The application can monitor and analyze cow health and diet, providing data-driv
 
                 <!--Duncan-->
                 <div class="col-lg-4 col-md-6 wow fadeInUp team-banner" data-wow-delay="0.5s">
-                    <div class="team-item rounded p-4">
+                    <div class="team-item rounded p-4 Image">
                         <img src="img/Nderu.png" class="image-container rounded-circle" alt="...">
                         <h5 style="color:black;">Dr. Lawrence Nderu</h5>
                         <p style="color:rgb(10, 147, 192);" >Chairman & Project Managert</p>
@@ -575,7 +477,7 @@ The application can monitor and analyze cow health and diet, providing data-driv
 
                 <!--William-->
                 <div class="col-lg-4 col-md-6 wow fadeInUp team-banner" data-wow-delay="0.5s">
-                    <div class="team-item rounded p-4">
+                    <div class="team-item rounded p-4 Image">
                         <img src="img/William.jpeg" class="image-container rounded-circle" alt="...">
                         <h5 style="color:black;">Dr. William</h5>
                         <p style="color:rgb(10, 147, 192);">JHUB Official & Lecturer</p>
